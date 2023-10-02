@@ -1,0 +1,14 @@
+body{
+    display: grid;
+    grid-template-rows: repeat(3,1fr);
+
+}
+.grid{
+    border: 2px solid orangered;
+    border-radius: 20px;
+    row-gap: 20px;
+    background-color: #fff4e6;
+}
+.grid > div{ 
+   
+}

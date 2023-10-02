@@ -1,5 +1,6 @@
 Body {
     background-image: url(/Users/tim/Downloads/000032960005.jpg);
+    background-blend-mode: hard-light;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
@@ -42,6 +43,7 @@ div, style {
 main {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
     column-gap: 10px;
     height: 500px;  
     justify-content: space-evenly;
@@ -49,7 +51,7 @@ main {
 }
 
 footer{
-    margin-top: 2px;
+    margin-top: 12%;
     height: 30px;
     display: flex;
     flex-direction: row;
@@ -98,22 +100,19 @@ footer{
     width: 150px;
 }
 .img2 {
-    
     content: normal;
     border-radius: 5px;
     min-height: 300px;
     width: 20%;
 }
 .img3 {
-  
     content: normal;
     border-radius: 5px;
     min-height: 300px;
     width: 130px;
 
 }
-.img4 {
-    
+.img4 { 
     content: normal;
     border-radius: 5px;
     min-height: 300px;
