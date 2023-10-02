@@ -47,6 +47,7 @@ main {
     justify-content: space-evenly;
     text-align: center;
 }
+
 footer{
     margin-top: 2px;
     height: 30px;
@@ -62,7 +63,6 @@ footer{
     color: snow;
     text-shadow: 1px 1px;
     font-size: 30px;
-    text-decoration: underline solid salmon;
     display: flex;
     flex-direction:row-reverse;
     justify-content:flex-end;
@@ -81,12 +81,11 @@ footer{
     height: 50px;
 }
 .span2 {
-    color: whitesmoke;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: honeydew;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: 20px;
     text-align: center;
     border-radius: 20px;
-    border: 5px solid rgb(113, 113, 113); 
     padding: 10px; 
     margin: 10px;
     width: 150px;
@@ -94,33 +93,40 @@ footer{
 
 }
 .img1 {
-    border:4px solid grey;
     border-radius: 5px;
-    height: 140px;
-    width: 92px;
+    min-height: 300px;
+    width: 150px;
 }
 .img2 {
-    border:4px solid grey;
+    
     content: normal;
     border-radius: 5px;
-    height: 140px;
-    width: 100px;
+    min-height: 300px;
+    width: 20%;
 }
 .img3 {
-    border:4px solid grey;
+  
     content: normal;
     border-radius: 5px;
-    height: 140px;
-    width: 100px;
+    min-height: 300px;
+    width: 130px;
 
 }
 .img4 {
-    border:4px solid grey;
+    
     content: normal;
     border-radius: 5px;
-    height: 140px;
-    width: 100px;
+    min-height: 300px;
+    width: 130px;
 }
 a { 
     color: snow;
+}
+.films {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color: white;
+    font-size: 25px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;  
 }
